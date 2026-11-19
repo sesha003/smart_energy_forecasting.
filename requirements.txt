@@ -1,0 +1,17 @@
+# Python 3.10 - 3.12
+pandas>=2.1
+numpy>=1.26
+requests>=2.31
+holidays>=0.50
+scikit-learn>=1.4
+torch>=2.2
+joblib>=1.3
+matplotlib>=3.8
+plotly>=5.20
+streamlit>=1.35
+anthropic>=0.50          # optional: LLM explanation in the planning assistant
+jupyter>=1.0
+ipykernel>=6.29
+
+# PatchTST (optional, heavier install - see README)
+neuralforecast>=1.7

@@ -1,0 +1,28 @@
+# Python & runtime caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter & testing
+.ipynb_checkpoints
+notebooks/
+lightning_logs/
+.pytest_cache/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Git & Docker
+.git/
+.gitignore
+.dockerignore
+Dockerfile
+docker-compose.yml
+smart_energy_forecasting_explained.md

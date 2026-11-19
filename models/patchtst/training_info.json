@@ -1,0 +1,23 @@
+{
+ "model": "PatchTST (neuralforecast)",
+ "device": "mps",
+ "series": [
+  "price",
+  "solar"
+ ],
+ "data_file": "data/processed/dataset_hourly.csv (SMARD: wholesale price DE/LU, actual photovoltaics)",
+ "train": "2019-01-01 to 2024-12-31",
+ "validation_early_stopping": "2025-01-01 to 2025-12-31",
+ "test": "2026-01-01 to 2026-11-17",
+ "input_hours": 168,
+ "horizon_hours": 24,
+ "patch_len": 24,
+ "quantiles": [
+  0.1,
+  0.5,
+  0.9
+ ],
+ "max_steps": 2000,
+ "training_seconds": 80.9,
+ "trained_at": "2026-11-19 02:48"
+}

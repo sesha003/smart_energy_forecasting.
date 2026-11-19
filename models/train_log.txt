@@ -1,0 +1,26 @@
+windows: train 52417, val 365, test 321  device: mps
+[cnn] epoch  1  train 0.0740  val 0.0725  (6s)
+[cnn] epoch  2  train 0.0568  val 0.0724  (6s)
+[cnn] epoch  3  train 0.0522  val 0.0664  (6s)
+[cnn] epoch  4  train 0.0495  val 0.0666  (6s)
+[cnn] epoch  5  train 0.0479  val 0.0647  (6s)
+[cnn] epoch  6  train 0.0462  val 0.0672  (6s)
+[cnn] epoch  7  train 0.0449  val 0.0641  (6s)
+[cnn] epoch  8  train 0.0436  val 0.0648  (6s)
+[cnn] epoch  9  train 0.0424  val 0.0683  (6s)
+[cnn] epoch 10  train 0.0411  val 0.0705  (6s)
+[cnn] epoch 11  train 0.0402  val 0.0665  (6s)
+[cnn] epoch 12  train 0.0392  val 0.0772  (6s)
+[cnn] early stopping - best val pinball 0.0641
+saved models/cnn.pt
+[lstm] epoch  1  train 0.0819  val 0.0771  (12s)
+[lstm] epoch  2  train 0.0553  val 0.0724  (12s)
+[lstm] epoch  3  train 0.0507  val 0.0678  (11s)
+[lstm] epoch  4  train 0.0478  val 0.0669  (11s)
+[lstm] epoch  5  train 0.0447  val 0.0696  (12s)
+[lstm] epoch  6  train 0.0419  val 0.0745  (12s)
+[lstm] epoch  7  train 0.0390  val 0.0749  (11s)
+[lstm] epoch  8  train 0.0364  val 0.0801  (12s)
+[lstm] epoch  9  train 0.0336  val 0.0827  (11s)
+[lstm] early stopping - best val pinball 0.0669
+saved models/lstm.pt

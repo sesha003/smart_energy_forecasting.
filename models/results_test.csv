@@ -1,0 +1,11 @@
+target,model,MAE,RMSE,Pinball,Coverage,BandWidth
+price,1D-CNN,2.656,4.021,0.872,73.3,6.875
+price,Baseline: same hour last week,4.461,6.789,1.599,71.0,10.601
+price,Baseline: same hour yesterday,3.327,5.158,1.192,72.8,8.185
+price,LSTM,3.091,4.452,1.015,67.8,7.888
+price,PatchTST,2.588,4.007,0.844,80.4,7.926
+solar,1D-CNN,2461.366,4517.461,855.57,64.6,4614.657
+solar,Baseline: same hour last week,3462.118,6642.399,1191.749,53.5,6919.752
+solar,Baseline: same hour yesterday,2254.18,4643.844,803.885,57.6,4619.796
+solar,LSTM,2482.189,4525.188,859.551,63.1,4907.536
+solar,PatchTST,2222.782,4214.482,722.825,81.5,6826.296
